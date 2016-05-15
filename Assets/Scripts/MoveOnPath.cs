@@ -39,4 +39,10 @@ public class MoveOnPath : MonoBehaviour {
 			currentWayID = 0;
 		}
 	}
+
+	public void text_changed(string newText) {
+		float temp = float.Parse (newText);
+		this.speed = temp;
+	}
+   
 }
